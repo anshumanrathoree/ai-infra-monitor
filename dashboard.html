@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Infrastructure Monitor</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; }
+        h1 { color: #333; text-align: center; }
+        .status { padding: 20px; margin: 20px 0; border-radius: 5px; }
+        .status.good { background: #d4edda; border: 1px solid #c3e6cb; }
+        .status.warning { background: #fff3cd; border: 1px solid #ffeaa7; }
+        .status.error { background: #f8d7da; border: 1px solid #f5c6cb; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>��� AI Infrastructure Monitor</h1>
+        <div class="status good">
+            <h3>✅ System Status: Operational</h3>
+            <p>Your AI infrastructure monitoring system has been deployed successfully!</p>
+        </div>
+        <div class="status warning">
+            <h3>��� Next Steps:</h3>
+            <ul>
+                <li>Check CloudWatch for your custom metrics</li>
+                <li>Subscribe to SNS alerts</li>
+                <li>Monitor Lambda function logs</li>
+                <li>Add your OpenAI API key for AI analysis</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

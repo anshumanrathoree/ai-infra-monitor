@@ -1,0 +1,15 @@
+# build/artifacts
+lambda-deployment.zip
+test-output.json
+*.log
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# creds (never commit)
+.env
+*.pem
+.aws/
