@@ -1,4 +1,4 @@
-# build/artifacts
+# build/artifacts 
 lambda-deployment.zip
 test-output.json
 *.log
@@ -9,7 +9,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# creds (never commit)
+# creds 'never commit'
 .env
 *.pem
 .aws/
